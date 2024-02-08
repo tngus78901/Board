@@ -1,5 +1,6 @@
-{{> layout/header}}
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/view/layout/header.jsp" %>    
 <div class="container p-5">
     <div class="card">
         <div class="card-header"><b>익명 글수정 화면입니다</b></div>
@@ -20,4 +21,4 @@
     </div>
 </div>
 
-{{> layout/footer}}
+<%@ include file="/WEB-INF/view/layout/footer.jsp" %>
